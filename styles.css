@@ -1,0 +1,121 @@
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #efc314;
+  }
+  h1{
+    font-size: 40px;
+    text-align: center;
+      color: #333;
+      /* Set initial opacity to 0 */
+      opacity: 0;
+      /* Define the animation duration and timing function */
+      animation: fadeIn 2s ease-in-out forwards;
+    }
+
+    /* Define the keyframes for the animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-stephan-seeber-1054218.jpg');
+    background-size: 200%;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+    background-color: rgb(255, 255, 255);
+    
+.Page {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 220px;
+    margin: 200px;
+    font-family:Tahoma;
+   
+}
+p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Firstdiv {
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+    padding: 25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+    
+}
+form input[type="text"]{
+    font-family: Helvetica;
+
+}
+form label {
+    font-family: Helvetica;
+}
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:10px;
+    border:none;
+  }
+input[type=submit]{
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        background-color: rgb(46, 227, 70);
+        border:none;
+        border-radius:10px;
+      
+}
+form {
+    margin: 30px;
+    padding: 1px;
+}
+
+
